@@ -1,7 +1,7 @@
 def SET_PWM(io1,io2,p1,p2,p3,p4):
     buf = [0x20]
     if(io1==0):
-        buf+=[0x40]
+        buf+=[0x30]
     elif(io1==1):
         buf+=[0x04]
     elif(io1==3):
